@@ -20,7 +20,7 @@ public class FuelCosts {
                 done = true;
             }else {
                 trash = in.nextLine();
-                System.out.println("You your amount of gas was " + trash);
+                System.out.println("You said your amount of gas was " + trash);
                 System.out.println("Please enter a valid Amount");
             }
         } while (!done);
